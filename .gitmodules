@@ -1,0 +1,3 @@
+[submodule "data/open-footwear-images"]
+	path = data/open-footwear-images
+	url = git@github.com:kevinscollins/open-footwear-images
