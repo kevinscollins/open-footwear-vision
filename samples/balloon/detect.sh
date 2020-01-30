@@ -1,2 +1,0 @@
-python3 balloon.py splash --weights=/path/to/mask_rcnn/mask_rcnn_balloon.h5 --dataset ../../mask_rcnn/datasets/balloon/ --weights ../../mask_rcnn/datasets/balloon/mask_rcnn_balloon.h5 --image party.jpg 
-diff -s party_splashed.png splash_expected.png
