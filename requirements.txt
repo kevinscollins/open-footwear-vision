@@ -10,5 +10,5 @@ tensorflow==1.13.1
 imgaug==0.3.0
 scipy==1.4.1
 ipython==7.11.1
-skimage==0.0
 pipreqs==0.4.10
+Cython==0.29.14
