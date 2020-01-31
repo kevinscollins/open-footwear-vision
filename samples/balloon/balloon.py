@@ -28,6 +28,7 @@ Usage: import the module (see Jupyter notebooks for examples), or run from
 """
 
 import os
+import time
 import sys
 import json
 import datetime
@@ -229,7 +230,10 @@ def detect_and_color_splash(model, image_path=None, video_path=None):
         # Read image
         image = skimage.io.imread(args.image)
         # Detect objects
+        t0 = time.time()
         r = model.detect([image], verbose=1)[0]
+        t1 = time.time()
+        print ("DETECTION TIME:", t1-t0)
         # Color splash
         splash = color_splash(image, r['masks'])
         # Save output
