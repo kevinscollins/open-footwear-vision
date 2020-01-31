@@ -10,4 +10,3 @@ imgaug==0.3.0
 scipy==1.4.1
 ipython==7.11.1
 pipreqs==0.4.10
--e git+hub@eye0.com:footwear/models/pretrained/openfootballoon#egg=openfootballoon
