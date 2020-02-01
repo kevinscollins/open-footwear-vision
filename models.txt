@@ -1,1 +1,1 @@
--e git+hub@eye0.com:footwear/models/pretrained/openfootballoon#egg=openfootballoon
+-ve git+hub@eye0.com:footwear/models/pretrained/openfootballoon#egg=openfootballoon
