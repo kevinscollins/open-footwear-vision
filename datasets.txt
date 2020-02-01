@@ -1,1 +1,1 @@
--ve git+https://github.com/eye0inc/open-footwear-images#egg=open_footwear_images
+-e git+https://github.com/eye0inc/open-footwear-images#egg=open_footwear_images
