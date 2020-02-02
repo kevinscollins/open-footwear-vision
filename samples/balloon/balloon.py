@@ -319,7 +319,7 @@ if __name__ == '__main__':
     print("Logs: ", args.logs)
 
     # Configurations
-    if args.command == "trainx":
+    if args.command == "train":
         config = BalloonConfig()
     else:
         class InferenceConfig(BalloonConfig):
