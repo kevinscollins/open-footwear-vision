@@ -10,6 +10,13 @@ if input("install tensorflow-gpu?").lower()[:1] == 'y':
 if input("install available trained model: openfootballoon (245 Mbyte)?").lower()[:1] == 'y':
     os.system("pip install -r models.txt")
 
-if input("run test?").lower()[:1] == 'y':
+if input("install available datasets via_annotated_1 & test_balloons (60 Mbyte)?").lower()[:1] == 'y':
+    os.system("pip install -r datasets.txt")
+
+if input("run training (break out with ctl-C)?").lower()[:1] == 'y':
+    os.chdir("samples/balloon")
+    os.system("python train.py")
+
+if input("run pre-trained splash test?").lower()[:1] == 'y':
     os.chdir("samples/balloon")
     os.system("python detect.py")
